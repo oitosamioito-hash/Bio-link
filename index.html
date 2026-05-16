@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oitosami Addons</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial,sans-serif;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:radial-gradient(circle at top,#1e3a8a,#020617 70%);
+      color:white;
+    }
+
+    .card{
+      width:90%;
+      max-width:350px;
+      padding:40px 25px;
+      border-radius:25px;
+      text-align:center;
+      background:rgba(255,255,255,0.05);
+      backdrop-filter:blur(10px);
+      border:1px solid rgba(255,255,255,0.1);
+      box-shadow:0 0 30px rgba(0,0,0,.5);
+    }
+
+    .profile{
+      width:120px;
+      height:120px;
+      border-radius:50%;
+      object-fit:cover;
+      margin-bottom:18px;
+      border:3px solid #7dd3fc;
+    }
+
+    h1{
+      font-size:32px;
+      margin-bottom:12px;
+      color:#7dd3fc;
+    }
+
+    p{
+      color:#cbd5e1;
+      margin-bottom:28px;
+    }
+
+    .btn{
+      display:block;
+      text-decoration:none;
+      background:linear-gradient(90deg,#2563eb,#06b6d4);
+      color:white;
+      padding:16px;
+      border-radius:18px;
+      font-weight:bold;
+      transition:.3s;
+      margin-top:15px;
+    }
+
+    .btn:hover{
+      transform:scale(1.05);
+      box-shadow:0 0 20px rgba(59,130,246,.6);
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <img 
+      class="profile"
+      src="https://i.ibb.co/2YNzRhSj/downloadfile.png"
+      alt="Perfil"
+    >
+
+    <h1>Oitosami Addons</h1>
+
+    <p>Baixe meus addons</p>
+
+    <a 
+      class="btn"
+      href="https://mcpedl.com/simple-waypoint/"
+      target="_blank"
+    >
+      MCPEDL
+    </a>
+
+    <a 
+      class="btn"
+      href="https://www.curseforge.com/minecraft-bedrock/addons/simple-waypoint"
+      target="_blank"
+    >
+      CurseForge
+    </a>
+
+  </div>
+
+</body>
+</html>
